@@ -26,6 +26,7 @@ with st.form("user_inputs"):
     if button and uploaded_file is not None and mcq_count and subject and tone:
         with st.spinner("Loading"):
             try:
+                print(uploaded_file)
                 text=read_file(uploaded_file)
                 # Count Tokens
                 

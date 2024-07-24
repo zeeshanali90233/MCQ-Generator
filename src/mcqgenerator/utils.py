@@ -1,26 +1,26 @@
-import os
 import PyPDF2
 import json
-import traceback
- 
 
 
 def read_file(file):
-    if(file.name.endswith(".pdf")):
+    if file.name.endswith(".pdf"):
         try:
-            pdf_reader=PyPDF2.PdfFileReader(file)
-            text=""
-            for page in pdf_reader.pages:
-                text+=page.extract_text()
+            pdf_reader = PyPDF2.PdfReader(file)
+            text = ""
+            for page in range(len(pdf_reader.pages)):
+                text += pdf_reader.pages[page].extract_text()
             return text
         except Exception as e:
-            raise Exception("Error while reading pdf file")
-    elif(file.name.endswith(".txt")):
-      return file.read().decode("utf-8")
+            raise Exception("Error while reading PDF file")
+    elif file.name.endswith(".txt"):
+        try:
+            text = file.read().decode("utf-8")
+            return text
+        except Exception as e:
+            raise Exception("Error while reading TXT file")
     else:
-        raise Exception("UnSupported file format, only pdf and txt file is supported")  
-
-
+        raise Exception("Unsupported file format, only PDF and TXT files are supported")
+    
 def get_table_data(quiz_str):
 
     quiz_dict=eval(str(quiz_str))

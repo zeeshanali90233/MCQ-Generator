@@ -1,4 +1,6 @@
 ,MCQ,Choices,Correct
-1,"Who coined the term ""machine learning"" in 1959?",a: Donald Hebb | b: Tom M. Mitchell | c: Arthur Samuel | d: Walter Pitts,c
-2,Which field of study focuses on exploratory data analysis through unsupervised learning?,a: Data Mining | b: Artificial Intelligence | c: Neural Networks | d: Cybertron,a
-3,"What was the name of the experimental ""learning machine"" developed by Raytheon Company in the early 1960s?",a: Perceptron | b: Cybertron | c: Hopfield | d: Rumelhart,b
+1,What is the role of an expert MCQ maker?,a: Creating quizzes for fun | b: Designing multiple choice questions | c: Analyzing data | d: Writing essays,b
+2,Who are the intended recipients of the quiz in this context?,a: Data Analyst Course Outline students | b: Professional chefs | c: Fitness instructors | d: Art historians,a
+3,What is the expertise of the students for whom the quiz is designed?,a: Beginners in data analysis | b: Advanced programmers | c: Intermediate level data analysts | d: Expert statisticians,c
+4,What tone should the questions be in for the Data Analyst Course Outline students?,a: Casual | b: Formal | c: Intermediate | d: Humorous,c
+5,What is the main job of the students for whom the quiz is created?,a: Creating art | b: Writing poetry | c: Analyzing data | d: Cooking recipes,c
