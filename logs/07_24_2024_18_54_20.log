@@ -1,3 +1,0 @@
-[2024-07-24 18:54:37,316] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[2024-07-24 18:54:38,844] 1026 httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[2024-07-24 18:54:38,851] 47 root - INFO - Quiz Generated with Cost: 0.000667
